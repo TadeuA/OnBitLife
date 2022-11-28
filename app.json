@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "one-bit-code",
+    "slug": "one-bit-code",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
