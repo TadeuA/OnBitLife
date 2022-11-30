@@ -1,16 +1,16 @@
 import React from 'react'
 import { View, ScrollView, Image, Text } from 'react-native'
-
+import * as S from './styles'
 export const Start = () => {
 
     return (
-        <View>
+        <S.Wrapper>
             <ScrollView showsVerticalScrollIndicator={false}>
-                <Image source={require("../../assets/icons/logo3.png")} />
-                <Text>
-                    Vamos transformar sua vida {"/n"} em jogo, buscando sempre {"/n"} o melhor nivel.
-                </Text>
+                <S.Logo source={require("../../assets/icons/logo3.png")} />
+                <S.Description>
+                    Vamos transformar sua vida{'\n'}em jogo, buscando sempre{'\n'}o melhor nivel.
+                </S.Description>
             </ScrollView>
-        </View>
+        </S.Wrapper>
     )
 }
